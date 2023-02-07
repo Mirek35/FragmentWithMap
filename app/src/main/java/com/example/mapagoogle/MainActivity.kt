@@ -64,7 +64,7 @@ fun RunMaps() {
                 Spacer(modifier = Modifier.padding(5.dp))
                 Box(
                     modifier = Modifier
-                        .width(200.dp)
+                        .width(300.dp)
                         .height(60.dp)
                         .background(Color.DarkGray)
                 ) {
@@ -92,7 +92,7 @@ fun RunMaps() {
                     Icon(
                         painter = painterResource(id = R.drawable.ic_exit),
                         contentDescription = "Close",
-                        tint = Color.Gray, modifier = Modifier.padding(start = 120.dp)
+                        tint = Color.Gray, modifier = Modifier.padding(end = 2.dp)
                     )
                 }
             }
