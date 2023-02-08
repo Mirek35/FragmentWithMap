@@ -139,13 +139,15 @@ fun RunMaps() {
             contentAlignment = Alignment.Center
         ) {
             Text(text = "TUTAJ MAPA GOOGLE", textAlign = TextAlign.Center)
+//            GoogleMap()
+
         }
         //Data koncowa
         Box(
             Modifier
                 .width(100.dp)
                 .height(50.dp)
-                .padding(1.dp)
+                .padding(0.dp)
                 .background(Color.Gray),
             contentAlignment = Alignment.Center
         ) {
@@ -153,6 +155,8 @@ fun RunMaps() {
         }
     }
 }
+
+
 
 @Preview(showBackground = true)
 @Composable
